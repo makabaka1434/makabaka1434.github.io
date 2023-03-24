@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>hexo使用hexo-renderer-marked插入图片</title>
+    <link href="/2023/03/24/hexo%E4%BD%BF%E7%94%A8hexo-renderer-marked%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
+    <url>/2023/03/24/hexo%E4%BD%BF%E7%94%A8hexo-renderer-marked%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    
+    <content type="html"><![CDATA[<h1 id="hexo使用hexo-renderer-marked插入图片"><a href="#hexo使用hexo-renderer-marked插入图片" class="headerlink" title="hexo使用hexo-renderer-marked插入图片"></a>hexo使用hexo-renderer-marked插入图片</h1><h2 id="如何向hexo博客中插入图片"><a href="#如何向hexo博客中插入图片" class="headerlink" title="如何向hexo博客中插入图片"></a>如何向hexo博客中插入图片</h2><h3 id="图片插件"><a href="#图片插件" class="headerlink" title="图片插件"></a>图片插件</h3><h4 id="插件hexo-renderer-marked解决了这个问题。可以只用npm-install-hexo-renderer-marked命令直接安装-如果在git上会爆错，最好使用cmd管理员权限进行安装-，之后在config-yaml中更改配置如下："><a href="#插件hexo-renderer-marked解决了这个问题。可以只用npm-install-hexo-renderer-marked命令直接安装-如果在git上会爆错，最好使用cmd管理员权限进行安装-，之后在config-yaml中更改配置如下：" class="headerlink" title="插件hexo-renderer-marked解决了这个问题。可以只用npm install hexo-renderer-marked命令直接安装(如果在git上会爆错，最好使用cmd管理员权限进行安装)，之后在config.yaml中更改配置如下："></a>插件hexo-renderer-marked解决了这个问题。可以只用npm install hexo-renderer-marked命令直接安装(如果在git上会爆错，最好使用cmd管理员权限进行安装)，之后在config.yaml中更改配置如下：</h4><figure class="highlight txt"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs txt">post_asset_folder: true<br>marked:<br>  prependRoot: true<br>  postAsset: true<br></code></pre></td></tr></tbody></table></figure><h3 id="之后就可以在使用下面的方式愉快的插入图片了。"><a href="#之后就可以在使用下面的方式愉快的插入图片了。" class="headerlink" title="之后就可以在使用下面的方式愉快的插入图片了。"></a>之后就可以在使用下面的方式愉快的插入图片了。</h3><figure class="highlight txt"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">![](image.jpg)<br></code></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>mayikt最后学习到的地方</title>
     <link href="/2023/03/24/mayikt%E6%9C%80%E5%90%8E%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
     <url>/2023/03/24/mayikt%E6%9C%80%E5%90%8E%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</url>
