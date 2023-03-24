@@ -55,18 +55,5 @@
   
   
   
-  <entry>
-    <title>我的第一篇博客文章</title>
-    <link href="/2022/11/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
-    <url>/2022/11/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    
-    <content type="html"><![CDATA[<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p><em>哈哈哈</em></p><ul><li>请求</li><li>得得</li><li>的耳朵<blockquote><p>qweqwe</p><blockquote><p>dedededde</p><blockquote><p>dededed</p></blockquote></blockquote></blockquote></li></ul><p><img src="D:\lsp\lsp.jpg" alt="图片"></p><pre><code class="java">    @RequestMapping("/addUser")    public String addUser(String name,Integer age,String address){        int update = jdbcTemplate.update("insert INTO users(id,name,age,address) VALUES(NULL,?,?,?)",name,age,address);        return update&gt;0?"success":"fail";    }</code></pre>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
   
 </search>
