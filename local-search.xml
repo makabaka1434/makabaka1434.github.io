@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>hexo使用hexo-renderer-marked插入图片</title>
-    <link href="/2023/03/24/hexo%E4%BD%BF%E7%94%A8hexo-renderer-marked%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
-    <url>/2023/03/24/hexo%E4%BD%BF%E7%94%A8hexo-renderer-marked%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    <title>软考学习笔记</title>
+    <link href="/2023/03/24/%E8%BD%AF%E8%80%83%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <url>/2023/03/24/%E8%BD%AF%E8%80%83%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[<h1 id="hexo使用hexo-renderer-marked插入图片"><a href="#hexo使用hexo-renderer-marked插入图片" class="headerlink" title="hexo使用hexo-renderer-marked插入图片"></a>hexo使用hexo-renderer-marked插入图片</h1><h2 id="如何向hexo博客中插入图片"><a href="#如何向hexo博客中插入图片" class="headerlink" title="如何向hexo博客中插入图片"></a>如何向hexo博客中插入图片</h2><h3 id="图片插件"><a href="#图片插件" class="headerlink" title="图片插件"></a>图片插件</h3><h4 id="插件hexo-renderer-marked解决了这个问题。可以只用npm-install-hexo-renderer-marked命令直接安装-如果在git上会爆错，最好使用cmd管理员权限进行安装-，之后在config-yaml中更改配置如下："><a href="#插件hexo-renderer-marked解决了这个问题。可以只用npm-install-hexo-renderer-marked命令直接安装-如果在git上会爆错，最好使用cmd管理员权限进行安装-，之后在config-yaml中更改配置如下：" class="headerlink" title="插件hexo-renderer-marked解决了这个问题。可以只用npm install hexo-renderer-marked命令直接安装(如果在git上会爆错，最好使用cmd管理员权限进行安装)，之后在config.yaml中更改配置如下："></a>插件hexo-renderer-marked解决了这个问题。可以只用npm install hexo-renderer-marked命令直接安装(如果在git上会爆错，最好使用cmd管理员权限进行安装)，之后在config.yaml中更改配置如下：</h4><figure class="highlight txt"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs txt">post_asset_folder: true<br>marked:<br>  prependRoot: true<br>  postAsset: true<br></code></pre></td></tr></tbody></table></figure><h3 id="之后就可以在使用下面的方式愉快的插入图片了。"><a href="#之后就可以在使用下面的方式愉快的插入图片了。" class="headerlink" title="之后就可以在使用下面的方式愉快的插入图片了。"></a>之后就可以在使用下面的方式愉快的插入图片了。</h3><figure class="highlight txt"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">![](image.jpg)<br></code></pre></td></tr></tbody></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="软考中级软件设计师"><a href="#软考中级软件设计师" class="headerlink" title="软考中级软件设计师"></a>软考中级软件设计师</h1><h2 id="以下是我复习的归纳："><a href="#以下是我复习的归纳：" class="headerlink" title="以下是我复习的归纳："></a>以下是我复习的归纳：</h2><div class="row">    <embed src="/ppdf/软件设计师二轮复习.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
     
     
@@ -18,8 +18,8 @@
   
   <entry>
     <title>mayikt最后学习到的地方</title>
-    <link href="/2023/03/24/mayikt%E6%9C%80%E5%90%8E%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
-    <url>/2023/03/24/mayikt%E6%9C%80%E5%90%8E%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</url>
+    <link href="/2023/02/03/mayikt%E6%9C%80%E5%90%8E%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
+    <url>/2023/02/03/mayikt%E6%9C%80%E5%90%8E%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</url>
     
     <content type="html"><![CDATA[<h1 id="java学习"><a href="#java学习" class="headerlink" title="java学习"></a>java学习</h1><p><img src="/image/%E6%9C%80%E5%90%8E%E5%AD%A6%E4%B9%A0%E5%88%B0.jpg"></p>]]></content>
     
@@ -30,11 +30,11 @@
   
   
   <entry>
-    <title>软考学习笔记</title>
-    <link href="/2023/03/24/%E8%BD%AF%E8%80%83%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <url>/2023/03/24/%E8%BD%AF%E8%80%83%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <title>hexo使用hexo-renderer-marked插入图片</title>
+    <link href="/2023/01/14/hexo%E4%BD%BF%E7%94%A8hexo-renderer-marked%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
+    <url>/2023/01/14/hexo%E4%BD%BF%E7%94%A8hexo-renderer-marked%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
     
-    <content type="html"><![CDATA[<h1 id="软考中级软件设计师"><a href="#软考中级软件设计师" class="headerlink" title="软考中级软件设计师"></a>软考中级软件设计师</h1><h2 id="以下是我复习的归纳："><a href="#以下是我复习的归纳：" class="headerlink" title="以下是我复习的归纳："></a>以下是我复习的归纳：</h2><div class="row">    <embed src="/ppdf/软件设计师二轮复习.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    <content type="html"><![CDATA[<h1 id="hexo使用hexo-renderer-marked插入图片"><a href="#hexo使用hexo-renderer-marked插入图片" class="headerlink" title="hexo使用hexo-renderer-marked插入图片"></a>hexo使用hexo-renderer-marked插入图片</h1><h2 id="如何向hexo博客中插入图片"><a href="#如何向hexo博客中插入图片" class="headerlink" title="如何向hexo博客中插入图片"></a>如何向hexo博客中插入图片</h2><h3 id="图片插件"><a href="#图片插件" class="headerlink" title="图片插件"></a>图片插件</h3><h4 id="插件hexo-renderer-marked解决了这个问题。可以只用npm-install-hexo-renderer-marked命令直接安装-如果在git上会爆错，最好使用cmd管理员权限进行安装-，之后在config-yaml中更改配置如下："><a href="#插件hexo-renderer-marked解决了这个问题。可以只用npm-install-hexo-renderer-marked命令直接安装-如果在git上会爆错，最好使用cmd管理员权限进行安装-，之后在config-yaml中更改配置如下：" class="headerlink" title="插件hexo-renderer-marked解决了这个问题。可以只用npm install hexo-renderer-marked命令直接安装(如果在git上会爆错，最好使用cmd管理员权限进行安装)，之后在config.yaml中更改配置如下："></a>插件hexo-renderer-marked解决了这个问题。可以只用npm install hexo-renderer-marked命令直接安装(如果在git上会爆错，最好使用cmd管理员权限进行安装)，之后在config.yaml中更改配置如下：</h4><figure class="highlight txt"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs txt">post_asset_folder: true<br>marked:<br>  prependRoot: true<br>  postAsset: true<br></code></pre></td></tr></tbody></table></figure><h3 id="之后就可以在使用下面的方式愉快的插入图片了。"><a href="#之后就可以在使用下面的方式愉快的插入图片了。" class="headerlink" title="之后就可以在使用下面的方式愉快的插入图片了。"></a>之后就可以在使用下面的方式愉快的插入图片了。</h3><figure class="highlight txt"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">![](image.jpg)<br></code></pre></td></tr></tbody></table></figure>]]></content>
     
     
     
@@ -83,8 +83,8 @@
   
   <entry>
     <title>Spring中的@value实现原理</title>
-    <link href="/2022/11/30/Spring%E4%B8%AD%E7%9A%84-value%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/"/>
-    <url>/2022/11/30/Spring%E4%B8%AD%E7%9A%84-value%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</url>
+    <link href="/2022/10/30/Spring%E4%B8%AD%E7%9A%84-value%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/"/>
+    <url>/2022/10/30/Spring%E4%B8%AD%E7%9A%84-value%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</url>
     
     <content type="html"><![CDATA[<h1 id="Spring中-Value注解-底层实现原理"><a href="#Spring中-Value注解-底层实现原理" class="headerlink" title="Spring中 @Value注解 底层实现原理"></a>Spring中 @Value注解 底层实现原理</h1><h2 id="实现原理"><a href="#实现原理" class="headerlink" title="实现原理"></a>实现原理</h2><h3 id="实际上-Value-使用过读取配置文件中的数据内容，然后注入bean对象中，在通过反射机制，将配置文件中的属性值赋值到属性参数"><a href="#实际上-Value-使用过读取配置文件中的数据内容，然后注入bean对象中，在通过反射机制，将配置文件中的属性值赋值到属性参数" class="headerlink" title="实际上@Value 使用过读取配置文件中的数据内容，然后注入bean对象中，在通过反射机制，将配置文件中的属性值赋值到属性参数."></a>实际上@Value 使用过读取配置文件中的数据内容，然后注入bean对象中，在通过反射机制，将配置文件中的属性值赋值到属性参数.</h3><h4 id="下面通过代码可以验证"><a href="#下面通过代码可以验证" class="headerlink" title="下面通过代码可以验证:"></a>下面通过代码可以验证:</h4><h5 id="MayiktController-java"><a href="#MayiktController-java" class="headerlink" title="MayiktController.java"></a>MayiktController.java</h5><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-meta">@Value("${lsp.link}")</span><br>   <span class="hljs-keyword">private</span>  String link;<br><br>   <span class="hljs-keyword">public</span>  <span class="hljs-title function_">MayiktController</span><span class="hljs-params">()</span>{<br>       log.info(<span class="hljs-string">"&lt;MayiktController 无参构造方法执行&gt;"</span>);<br>   }<br><br>   <span class="hljs-meta">@GetMapping("/getLink")</span><br>   <span class="hljs-keyword">public</span> String <span class="hljs-title function_">getLink</span><span class="hljs-params">()</span>{<br>       <span class="hljs-keyword">return</span> link;<br>   }<br><br></code></pre></td></tr></tbody></table></figure><h5 id="application-yml"><a href="#application-yml" class="headerlink" title="application.yml"></a>application.yml</h5><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">lsp:<br>  link: https:<span class="hljs-comment">//makabaka1434.github.io/</span><br></code></pre></td></tr></tbody></table></figure><h5 id="app-java"><a href="#app-java" class="headerlink" title="app.java"></a>app.java</h5><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-meta">@SpringBootApplication</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">WeatherApp</span> {<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {<br>        SpringApplication.run(WeatherApp.class);<br>    }<br>}<br></code></pre></td></tr></tbody></table></figure><p>###传统项目中，如果将配置文件直接写死，存在本地，那么就需要重启服务，重新读取配置文件，重新创建bean对象，才可以注入新的属性值。因此需要使用分布式配置中心。</p>]]></content>
     
