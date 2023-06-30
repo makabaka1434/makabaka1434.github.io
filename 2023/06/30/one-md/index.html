@@ -16,20 +16,20 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
   
-    <meta name="description" content="spring-session与redis遇到的分布式session问题遇到bug：Error creating bean with name ‘enableRedisKeyspaceNotificationsInitializer’ defined in class解决方案：首先要先满足是否导入以下相关依赖12345678&lt;dependency&gt;    &lt;groupId&gt;o">
+    <meta name="description" content="哈哈哈">
 <meta property="og:type" content="article">
-<meta property="og:title" content="spring-session与redis分布式session问题.md">
-<meta property="og:url" content="http://example.com/2023/06/08/springbott-session%E4%B8%8Eredis%E5%88%86%E5%B8%83%E5%BC%8Fsession%E9%97%AE%E9%A2%98-md/index.html">
+<meta property="og:title" content="one.md">
+<meta property="og:url" content="http://example.com/2023/06/30/one-md/index.html">
 <meta property="og:site_name" content="coderLin">
-<meta property="og:description" content="spring-session与redis遇到的分布式session问题遇到bug：Error creating bean with name ‘enableRedisKeyspaceNotificationsInitializer’ defined in class解决方案：首先要先满足是否导入以下相关依赖12345678&lt;dependency&gt;    &lt;groupId&gt;o">
+<meta property="og:description" content="哈哈哈">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-06-08T13:38:54.000Z">
-<meta property="article:modified_time" content="2023-06-08T13:56:06.807Z">
+<meta property="article:published_time" content="2023-06-30T11:13:54.000Z">
+<meta property="article:modified_time" content="2023-06-30T11:14:24.627Z">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>spring-session与redis分布式session问题.md - coderLin</title>
+  <title>one.md - coderLin</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +197,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="spring-session与redis分布式session问题.md"></span>
+            <span id="subtitle" data-typed-text="one.md"></span>
           
         </div>
 
@@ -208,8 +208,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-06-08 21:38" pubdate>
-          June 8, 2023 pm
+        <time datetime="2023-06-30 19:13" pubdate>
+          June 30, 2023 pm
         </time>
       </span>
     
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.4k words
+          3 words
         
       </span>
     
@@ -231,7 +231,7 @@
         
         
         
-          12 mins
+          1 mins
         
       </span>
     
@@ -269,19 +269,12 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">spring-session与redis分布式session问题.md</h1>
+            <h1 style="display: none">one.md</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="spring-session与redis遇到的分布式session问题"><a href="#spring-session与redis遇到的分布式session问题" class="headerlink" title="spring-session与redis遇到的分布式session问题"></a>spring-session与redis遇到的分布式session问题</h2><h3 id="遇到bug：Error-creating-bean-with-name-‘enableRedisKeyspaceNotificationsInitializer’-defined-in-class"><a href="#遇到bug：Error-creating-bean-with-name-‘enableRedisKeyspaceNotificationsInitializer’-defined-in-class" class="headerlink" title="遇到bug：Error creating bean with name ‘enableRedisKeyspaceNotificationsInitializer’ defined in class"></a>遇到bug：Error creating bean with name <b>‘enableRedisKeyspaceNotificationsInitializer’ </b>defined in class</h3><h4 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h4><h5 id="首先要先满足是否导入以下相关依赖"><a href="#首先要先满足是否导入以下相关依赖" class="headerlink" title="首先要先满足是否导入以下相关依赖"></a>首先要先满足是否导入以下相关依赖</h5><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs java">&lt;dependency&gt;<br>    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;<br>    &lt;artifactId&gt;spring-boot-starter-data-redis&lt;/artifactId&gt;<br>&lt;/dependency&gt;<br>&lt;dependency&gt;<br>    &lt;groupId&gt;org.springframework.session&lt;/groupId&gt;<br>    &lt;artifactId&gt;spring-session-data-redis&lt;/artifactId&gt;<br>&lt;/dependency&gt;<br></code></pre></td></tr></tbody></table></figure>
-<h5 id="1-注意观察redis安装的时候，是否有设置密码，没有yml配置文件中的密码不填"><a href="#1-注意观察redis安装的时候，是否有设置密码，没有yml配置文件中的密码不填" class="headerlink" title="1.注意观察redis安装的时候，是否有设置密码，没有yml配置文件中的密码不填"></a>1.注意观察redis安装的时候，是否有设置密码，没有yml配置文件中的密码不填</h5><h5 id="2-修改配置文件application-yml"><a href="#2-修改配置文件application-yml" class="headerlink" title="2.修改配置文件application.yml"></a>2.修改配置文件application.yml</h5><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs java">spring.redis.host=<span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span> (原本为<span class="hljs-number">192.168</span><span class="hljs-number">.10</span><span class="hljs-number">.100</span>)<br>spring.redis.port=<span class="hljs-number">6379</span><br>spring.redis.password=<span class="hljs-number">123</span><br>spring.redis.database=<span class="hljs-number">0</span><br></code></pre></td></tr></tbody></table></figure>
-<h5 id="3-spring-boot-启动类Application-添加注解-EnableRedisHttpSession（有的情况可不进行这一步骤）"><a href="#3-spring-boot-启动类Application-添加注解-EnableRedisHttpSession（有的情况可不进行这一步骤）" class="headerlink" title="3.spring boot 启动类Application 添加注解@EnableRedisHttpSession（有的情况可不进行这一步骤）"></a>3.spring boot 启动类Application 添加注解@EnableRedisHttpSession（有的情况可不进行这一步骤）</h5><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-meta">@SpringBootApplication</span><br><span class="hljs-meta">@EnableRedisHttpSession</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Application</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">WebMvcConfigurationSupport</span> {<br><br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span>{<br><br>        SpringApplication.run(Application.class,args);<br><br>    }<br>}<br></code></pre></td></tr></tbody></table></figure>
-<h5 id="4-application-yml最终配置代码为："><a href="#4-application-yml最终配置代码为：" class="headerlink" title="4.application.yml最终配置代码为："></a>4.application.yml最终配置代码为：</h5><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><code class="hljs java">spring:<br>  # thymeleaf配置<br>  thymeleaf:<br>    # 关闭缓存<br>    cache: <span class="hljs-literal">false</span><br>    # 数据源配置<br>  datasource:<br>    driver-class-name: com.mysql.cj.jdbc.Driver<br>    url: jdbc:mysql:<span class="hljs-comment">//localhost:3306/seckill?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai</span><br>    username: root<br>    password: <span class="hljs-number">123456</span><br>  redis:<br>    #超时时间<br>    timeout: 10000ms<br>    #服务器地址<br>    host: <span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span>     <br>    #服务器端口<br>    port: <span class="hljs-number">6379</span><br>    #数据库<br>    database: <span class="hljs-number">0</span><br>    #密码<br>    password:<br>    lettuce:<br>      pool:<br>        #最大连接数，默认<span class="hljs-number">8</span><br>        max-active: <span class="hljs-number">1024</span><br>        #最大连接阻塞等待时间，默认-<span class="hljs-number">1</span><br>        max-wait: 10000ms<br>        #最大空闲连接<br>        max-idle: <span class="hljs-number">200</span><br>        #最小空闲连接<br>        min-idle: <span class="hljs-number">5</span><br></code></pre></td></tr></tbody></table></figure>
-
-
-
-
+                <h1 id="哈哈哈"><a href="#哈哈哈" class="headerlink" title="哈哈哈"></a>哈哈哈</h1>
                 
               </div>
             
@@ -298,15 +291,15 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>spring-session与redis分布式session问题.md</div>
-      <div>http://example.com/2023/06/08/springbott-session与redis分布式session问题-md/</div>
+      <div>one.md</div>
+      <div>http://example.com/2023/06/30/one-md/</div>
     </div>
     <div class="license-meta">
       
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>June 8, 2023</div>
+          <div>June 30, 2023</div>
         </div>
       
       
@@ -338,18 +331,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/06/30/one-md/" title="one.md">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">one.md</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/05/15/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E5%A4%8D%E4%B9%A0%E8%A6%81%E7%82%B9/" title="软件设计师复习要点">
-                        <span class="hidden-mobile">软件设计师复习要点</span>
+                      <a href="/2023/06/08/springbott-session%E4%B8%8Eredis%E5%88%86%E5%B8%83%E5%BC%8Fsession%E9%97%AE%E9%A2%98-md/" title="spring-session与redis分布式session问题.md">
+                        <span class="hidden-mobile">spring-session与redis分布式session问题.md</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
